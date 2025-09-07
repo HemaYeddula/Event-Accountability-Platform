@@ -1,18 +1,18 @@
-# Event Management System
+# Event Accountability & Transparency Platform
 
-Welcome to the Event Management System project! This project is an open-source event management system developed using the Spring Boot framework.
+A **full-stack event management platform** built using **React**, **Spring Boot**, and **MySQL**, designed to ensure accountability and transparency in event planning and execution.
 
 ## Description
 
-The Event Management System project aims to provide a comprehensive solution for managing events and participants. It includes features such as event display, participant management, user authentication, and more.
+This platform enables organizers to **create, manage, and track events**, while providing participants with interactive features such as polls, feedback, ratings, and voting. The system emphasizes secure role-based access and real-time updates for improved transparency and collaboration.
 
 ## Features
 
-- Event Display: View all events, sorted by date, and manage event details.
-- Participant Management: Add, remove, and manage participants for specific events.
-- User Authentication: Secure sign-up, login, and logout functionality for users.
-- Notification System: Create and manage notifications related to events.
-- Admin Dashboard: Provides administrators with tools to manage events, notifications, and users.
+- **Event Management**: Create, edit, and manage events with full visibility of event details and budgets.  
+- **Participant Interaction**: Engage participants with polls, feedback threads, ratings, and voting, updated in real-time via WebSockets.  
+- **Role-Based Access Control**: Secure authentication and authorization for **Organizers, Participants, and Admins** using JWT and OAuth.  
+- **Analytics Dashboard**: Compare planned vs. actual spending to enable data-driven decision-making.  
+- **Cloud File Storage**: Store and access event-related files securely in the cloud.
 
 ## Technologies Used
 
